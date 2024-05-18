@@ -19,25 +19,26 @@ This project provides a Python class `ImageCategorizer` that uses a pre-trained 
 ## PyTorch Documentation
 https://pytorch.org/
 https://pytorch.org/docs/stable/index.html
-
-PyTorch is a fully featured framework for building deep learning models
-which is a type of machine learning that's commonly used in applications like image recognition and language processing
-uses dynamic computation graphs and is completely Pythonic
-allows scientists, developers, and neural network debuggers to run and test portions of the code in real-time
+```bash
+  PyTorch is a fully featured framework for building deep learning models
+  which is a type of machine learning that's commonly used in applications like image recognition and language processing
+  uses dynamic computation graphs and is completely Pythonic
+  allows scientists, developers, and neural network debuggers to run and test portions of the code in real-time
+```
 
 ## Installation and Usage
 https://pytorch.org/get-started/locally/
 
 1. Clone the repository or download the code files.
 2. Install the required Python packages:
-
-py -m venv env
-.\env\Scripts\activate
-py -m pip install --upgrade pip
-pip3 install torch torchvision torchaudio matplotlib requests
-
-add images to the main folder 
-run the code
-images will be moved toa folder and categorized
-
+```bash
+  py -m venv env
+  .\env\Scripts\activate
+  py -m pip install --upgrade pip
+  pip3 install torch torchvision torchaudio matplotlib requests
+  
+  add images to the main folder 
+  run the code
+  images will be moved toa folder and categorized
+```
 
